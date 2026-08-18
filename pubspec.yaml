@@ -1,0 +1,28 @@
+name: rgb_run
+description: RGB RUN — Choose your light. Run through the colors. Find the White.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.18.0
+  flame_audio: ^2.10.0
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+  # Font bloğu kaldırıldı — gerçek .ttf dosyası eklenene kadar
+  # sistem fontu (Roboto/San Francisco) kullanılacak.
